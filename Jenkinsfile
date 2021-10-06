@@ -14,7 +14,7 @@ pipeline {
         }
         stage('hello1') {
             steps {
-                sh 'cd /home/ubuntu/; cat hardik'
+                sh 'cd /root; cat hardik'
             }
         }
     }
