@@ -28,7 +28,7 @@ pipeline {
             when {
                 anyOf {
                     expression { params.all == true }
-                    expression {params.third == true }
+                    expression { params.third == true }
                 }
             }    
             steps {
