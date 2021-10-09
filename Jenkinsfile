@@ -1,6 +1,5 @@
 pipeline {
-    agent slave-jenkins
-
+    agent any
     stages {
         stage('list home directory contents') {
             when {
