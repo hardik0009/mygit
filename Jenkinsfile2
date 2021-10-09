@@ -1,5 +1,5 @@
 pipeline {
-    node('slaveNode1'){
+    node('slave-jenkins'){
     stages {
         stage('list home directory contents') {
             when {
