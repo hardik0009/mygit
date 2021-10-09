@@ -1,5 +1,5 @@
 pipeline {
-    agent slave-jenkins'
+    node('slaveNode1'){
     stages {
         stage('list home directory contents') {
             when {
@@ -35,4 +35,5 @@ pipeline {
             }
         }
     }
+   } 
 }
